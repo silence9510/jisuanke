@@ -1,3 +1,5 @@
+import sys
+
 class child(object):
     def __init__(self, name, x, y, z):
         self.name = name
@@ -18,9 +20,3 @@ while True:
         childs.append(child(name,x,y,z))
 
     print(sorted(childs)[n-1].name + " took clay from " + sorted(childs)[0].name + ".")
-
-
-
-
-
-
