@@ -1,5 +1,3 @@
-import sys
-
 class child(object):
     def __init__(self, name, x, y, z):
         self.name = name
