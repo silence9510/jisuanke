@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+#单独的数字
 __author__ = 'zhangchengliang'
 
 n = int(input())
