@@ -5,11 +5,7 @@ __author__ = 'zhangchengliang'
 
 l = int(input())
 max = int(input())
-dSquare = []
-
-for i in range(max+1):
-    for j in range(max+1):
-        dSquare.append(i*i + j*j)
+dSquare = [i*i+j*j for i in range(max+1) for j in range(max+1)]
 
 dSquare = list(set(dSquare))
 mdv = (max*max*2 - 0) // (l - 1)
